@@ -1,0 +1,17 @@
+{
+  "name": "angular-test",
+  "description": "Everything you need to test your angular directive",
+  "extends": ["html-test"],
+  "files": [
+    "test/*"
+  ],
+  "process": [
+    "test/*"
+  ],
+  "dependencies": {
+    "jabapyth/angularjs": "*"
+  },
+  "development": {
+    "familyfound/ng-bootstrap": "*"
+  }
+}
